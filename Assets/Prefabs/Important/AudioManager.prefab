@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &625684021350179801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 625684021350179803}
+  - component: {fileID: 625684021350179800}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &625684021350179803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625684021350179801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &625684021350179800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625684021350179801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b44aa356030a34ba252484239f544e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CoinCollected
+    clip: {fileID: 8300000, guid: b2b4f79d115d99c418e46c2a96dcf9c2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump_1
+    clip: {fileID: 8300000, guid: b66ce149a31f7c74e81eccb6063c228f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: JumpPad
+    clip: {fileID: 8300000, guid: 5a072fb876b7b1d4297580f406b0178e, type: 3}
+    volume: 0.5
+    pitch: 1.23
+    loop: 0
+    source: {fileID: 0}
+  - name: Cat
+    clip: {fileID: 8300000, guid: 0d5292b23650d124780cfa795d46e624, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Cat_Dead
+    clip: {fileID: 8300000, guid: 6ed3dc9b53696a04d9243325469d8723, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Boss_1
+    clip: {fileID: 8300000, guid: 94ac61a98606a534786a25b0fe69de77, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Cat_Dead
+    clip: {fileID: 8300000, guid: d704275c5f8c7d34687c012d9896a023, type: 3}
+    volume: 0.313
+    pitch: 0.76
+    loop: 0
+    source: {fileID: 0}
+  - name: Door
+    clip: {fileID: 8300000, guid: 879e14f501eccad4e9a1d65a734f4267, type: 3}
+    volume: 0.313
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MusicL1
+    clip: {fileID: 8300000, guid: f21ba7a20bc64b24d9b7fe7b157072d1, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL1B
+    clip: {fileID: 8300000, guid: 9631ff3831d157c4f919c9e01586e899, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 2ca309c4b26954641b7aded77a240b3c, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL2
+    clip: {fileID: 8300000, guid: 6757807cfbe6c24459c60f831c44102e, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL2B
+    clip: {fileID: 8300000, guid: 500fe8f05c9b4a440b0d062635719e87, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL3
+    clip: {fileID: 8300000, guid: 4461b5d789354a148a45ac914d2b6602, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL3B
+    clip: {fileID: 8300000, guid: 5b65d6801ef488a4c90817c7a4774967, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL4
+    clip: {fileID: 8300000, guid: 5d0512d3a90e6dd42bd4b866286b6663, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL4B
+    clip: {fileID: 8300000, guid: 31ff0b8f12529144a887f58cf0dfabed, type: 3}
+    volume: 0.65
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL5
+    clip: {fileID: 8300000, guid: 074b9fe052f554843a2705210e7856ef, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicL5B
+    clip: {fileID: 8300000, guid: a52e4ff2af28e204b9ae5c0adaad77c8, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 2c8c55e77f70b8344bbbb707e96c1b1b, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MusicEndScreen
+    clip: {fileID: 8300000, guid: 5b68925c43c1f5b46b677633d9eb1cd8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Asteroid
+    clip: {fileID: 8300000, guid: 03229636bb20a2d49b8eeedf152296ea, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
