@@ -88,9 +88,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -103,9 +111,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11278}
     - Class: 114
+      Script: {instanceID: 11520}
+    - Class: 114
       Script: {instanceID: 11554}
     - Class: 114
       Script: {instanceID: 11690}
+    - Class: 114
+      Script: {instanceID: 11876}
+    - Class: 114
+      Script: {instanceID: 12118}
+    - Class: 114
+      Script: {instanceID: 13116}
     - Class: 114
       Script: {instanceID: 13406}
     - Class: 114
@@ -113,11 +129,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13978}
     - Class: 114
+      Script: {instanceID: 14008}
+    - Class: 114
       Script: {instanceID: 14090}
     - Class: 114
       Script: {instanceID: 14212}
     - Class: 114
+      Script: {instanceID: 14582}
+    - Class: 114
       Script: {instanceID: 14608}
+    - Class: 114
+      Script: {instanceID: 14696}
     - Class: 114
       Script: {instanceID: 14724}
     - Class: 114
@@ -762,6 +784,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11276}
     - Class: 114
+      Script: {instanceID: 11278}
+    - Class: 114
       Script: {instanceID: 11510}
     - Class: 114
       Script: {instanceID: 11520}
@@ -774,9 +798,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12500}
     - Class: 114
+      Script: {instanceID: 12764}
+    - Class: 114
       Script: {instanceID: 13032}
     - Class: 114
       Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13388}
     - Class: 114
       Script: {instanceID: 13406}
     - Class: 114
@@ -799,6 +827,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14700}
     - Class: 114
       Script: {instanceID: 14724}
+    - Class: 114
+      Script: {instanceID: 14756}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2087,7 +2117,7 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
-      Hash: d52afe229a6f747a396a403952382252
+      Hash: ff97332dde461f43a9083eb6f84bbc45
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -2346,4 +2376,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Levels/Level_5_Boss.unity
   - Assets/Scenes/EndScreen.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/PC/Desktop/P5/P5_Test/Final_Version_V2.apk
+  playerPath: C:/Users/PC/Documents/GitHub/P5/ElternabendVersion.apk
