@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius;
     public bool isTouchingGround;
     public bool isFacingRight = true;
+    public bool ableToSkip = true;
     private Rigidbody2D rigidBody;
     public LayerMask groundLayer;
     public LayerMask catLayer;
@@ -87,7 +88,12 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetAxis("SkipLevel") != 0)
         {
-            Level_Loader.instance.LoadNextLevel();
+            if (ableToSkip == true)
+            {
+                ableToSkip = false;
+                Level_Loader.instance.LoadNextLevel();
+            }
+           
         }
     }
 

@@ -26,6 +26,7 @@ public class Level_Loader : MonoBehaviour
     public void LoadNextLevel ()
     {
         GameStats.currentLevel++;
+        GameStats.lifes++;
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1));        
     }
 
